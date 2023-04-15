@@ -32,7 +32,7 @@ div.question{
 input{
     display: block;
     margin-left: 10px;
-    align-items: center;
+    text-align: center;
 }
 
 button{

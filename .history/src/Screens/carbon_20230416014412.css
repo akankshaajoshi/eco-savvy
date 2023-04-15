@@ -28,13 +28,3 @@ div.question{
     margin: 10px;
     padding: 20px;
 }
-
-input{
-    display: block;
-    margin-left: 10px;
-    align-items: center;
-}
-
-button{
-    margin-left: 15px;
-}

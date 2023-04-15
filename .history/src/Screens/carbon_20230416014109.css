@@ -6,16 +6,13 @@
 
 .carbon-section{
     background-color: #99999999;
+    margin: 30px 50px;
     margin-bottom: 0px !important;
     padding: 20px;
     padding-bottom: 20px !important;
     border-radius: 3px;
     width: 100%;
     text-align: left;
-}
-
-h1, p{
-    text-align: center;
 }
 
 div.question{
@@ -27,14 +24,4 @@ div.question{
     display: inline;
     margin: 10px;
     padding: 20px;
-}
-
-input{
-    display: block;
-    margin-left: 10px;
-    align-items: center;
-}
-
-button{
-    margin-left: 15px;
 }
