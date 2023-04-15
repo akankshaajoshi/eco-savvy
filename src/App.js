@@ -4,7 +4,12 @@ import {Carbon} from './Screens/carbon';
 function App() {
   return (
     <div className="App">
+<<<<<<< Updated upstream
       <Carbon/>
+=======
+      <Navbar/>
+      </>
+>>>>>>> Stashed changes
     </div>
   );
 }
