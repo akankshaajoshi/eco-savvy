@@ -1,0 +1,25 @@
+.navbar{
+    float: right;
+}
+
+a.navbar-brand{
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 20px;
+    padding: 2px;
+}
+
+.navbar .nav-item{
+    float: right;
+    padding: 10px;
+}
+
+li:active{
+    background-color: darkgreen;
+}
+
+li:hover, .nav-item:hover{
+    background-color: green;
+    border: green;
+}
