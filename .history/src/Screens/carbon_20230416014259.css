@@ -14,10 +14,6 @@
     text-align: left;
 }
 
-h1, p{
-    text-align: center;
-}
-
 div.question{
     margin: 10px;
     padding: 5px;
@@ -27,14 +23,4 @@ div.question{
     display: inline;
     margin: 10px;
     padding: 20px;
-}
-
-input{
-    display: block;
-    margin-left: 10px;
-    align-items: center;
-}
-
-button{
-    margin-left: 15px;
 }

@@ -27,13 +27,12 @@ export function News() {
       <header className="App-header">
         {loading ? "Loading..." : <Container>
           {newsData.map((newsData, index) =>
-            <Row className="d-flex justify-content-center">
-              <Col xs={12} className="h-25 d-inline-block" key={index}>
+            <Row>
+              <Col key={index}>
                 <a target="_blank" href={newsData.url}>
-                  <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={newsData.urlToImage} />
+                <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="{newsData.urlToImage}" />
       <Card.Body>
-        <Card.Title>{newsData.title}</Card.Title>
         <Card.Text>
           {newsData.description}
         </Card.Text>
@@ -43,7 +42,6 @@ export function News() {
               </Col>
             </Row>
           )}
-
         </Container>
         }
       </header>
