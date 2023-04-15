@@ -12,20 +12,27 @@
 .grid{
     background-image: linear-gradient(rgba(44, 44, 51, 0.712),rgba(112, 120, 121, 0.596),rgba(160, 154, 154, 0));
 }
+h2{
+
+    text-align: center;
+}
 .ingrid{
    
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 20vh 0vw;
+    justify-content: space-around;
+    padding: 20vh 4vw;
     border-radius: 12px;
     font-size: larger;
     padding-right: 10px;
-    /* /* display: flex; */
     text-align: left;
-    
-    background-repeat: no-repeat;
+}
+p{
+    text-align: left;
+}
+ol{
+    text-align: left;
 }
 iframe{
     background-color: rgba(90, 143, 152, 0.406);
