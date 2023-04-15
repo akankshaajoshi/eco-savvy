@@ -1,10 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
+import './News.css';
 export function News() {
 
   const [newsData, setNewsData] = useState([]);
@@ -24,27 +20,24 @@ export function News() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        {loading ? "Loading..." : <Container>
+      <div id="news-page">
+        {loading ? "Loading..." : 
+        <div id='newsSection'>
           {newsData.map((newsData, index) =>
-            <Row>
-              <Col key={index}>
+            <div key={index} id='newsbox'>
                 <a target="_blank" href={newsData.url}>
-                  <Card>
-      <Card.Body>
-      <Card.Img variant="top" src={newsData.urlToImage} width="200px"/>
-        <Card.Title>{newsData.title}</Card.Title>
-        <Card.Text>{newsData.description}</Card.Text>
-      </Card.Body>
-    </Card>
+                <div id='news-content'>
+                  <h2 id='news-title'>{newsData.title}</h2>
+                  <p id='news-para'>{newsData.description}</p>
+                </div>
+                  <img id='news-img' src={newsData.urlToImage} width="200px"/>
                 </a>
-              </Col>
-            </Row>
+          </div>
           )}
 
-        </Container>
+        </div>
         }
-      </header>
+      </div>
     </div>
   );
 }
