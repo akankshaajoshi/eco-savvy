@@ -30,10 +30,10 @@ export function News() {
             <Row>
               <Col key={index}>
                 <a target="_blank" href={newsData.url}>
-                  <Card>
+                  <Card style={{ width: '4rem' }}>
       <Card.Body>
       <Card.Img variant="top" src={newsData.urlToImage} width="200px"/>
-        <Card.Title>{newsData.title}</Card.Title>
+        <Card.Title width='400px'>{newsData.title}</Card.Title>
         <Card.Text>{newsData.description}</Card.Text>
       </Card.Body>
     </Card>
