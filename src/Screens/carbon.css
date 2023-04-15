@@ -6,6 +6,7 @@
 .sections{
     background-image: linear-gradient(rgba(0, 0, 0, 0.386),rgba(8, 8, 8, 0.55));
     backdrop-filter:blur(10px);
+    border-radius: 30px;
 }
 .carbon-section{
     background-color: #3b3b3b16;
@@ -62,36 +63,25 @@ color: #C1F1E0;
 .btn{
     margin-left: 15px;
     font-size: 20px;
+    color: #C1F1E0;
 }
 button {
     position: relative;
     font-size: 1.2em;
     padding: 0.7em 1.4em;
-    background-color: #C1F1E0;
+    background-color: #20212133;
+    transition: 0.1s ease-in-out;
     text-decoration: none;
     border: none;
     border-radius: 0.5em;
-    color: #000000;
     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
   }
   
-  button::before {
-    position: absolute;
-    content: '';
-    height: 0;
-    width: 0;
-    top: 0;
-    left: 0;
-    background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%, #C1F1E0 50%, #C1F1E0 60%);
-    border-radius: 0 0 0.5em 0;
-    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
-    transition: 0.3s;
-  }
+ .btn:hover{
+background-color: #C1F1E0;
+color: #000000;
+ }
   
-  button:hover::before {
-    width: 1.6em;
-    height: 1.6em;
-  }
   
   button:active {
     box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
