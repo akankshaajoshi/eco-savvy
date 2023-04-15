@@ -1,34 +1,73 @@
-.home{
-    background: linear-gradient(90deg,yellow ,green);
-    flex:1;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#home-content{
+#blur {
+    backdrop-filter: blur(5px);
+    /* height:250vh; */
+    z-index: -1;
+}
+
+.home {
+    background-image: url("https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/pexels-deva-darshan-1173777.jpg?raw=true");
+    /* flex:1; */
+    color: white;
+}
+
+#home-content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    
 }
-#intro{
-    display: flex;
+
+#intro {
+    width:60vw;
+    padding:50px 90px;
+    line-height: 35px;
+    text-align: left;
 }
-.logo2{
+
+.logo2 {
     width: 500px;
 }
-#fade{
-    background-color: #ffffff55;
+
+
+#about-button{
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(90deg,rgba(181, 255, 183, 0.899),rgb(61, 253, 61));
+    padding:10px 20px;
+    border-radius: 30px;
 }
-.resource{
-    background-color: #00000055;
-}
-#news{
-    flex-direction: row;
+#about-left{
+    margin-left: 90px;
     display: flex;
+    align-items: flex-start;
 }
-.news-item{
-    height: 100px;
+.resource {
+    background-color: #0000007c;
+    border-radius: 50px;
+    margin: 25px 25px;
+    height: 30vh;
+}
+
+#news {
+    display: flex;
+    flex-direction: row;
+}
+
+.news-item {
+    height: 40vh;
+    width: 200px;
     background-color: #22dd22;
     margin: 10px;
 }
-#footer{
+
+#footer {
     background-color: black;
     color: grey;
     padding: 10px 0px;
