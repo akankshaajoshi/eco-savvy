@@ -1,5 +1,7 @@
 <<<<<<< Updated upstream
 import {Navbar} from '../Components/Navbar';
+import './carbon.css'
+
 export function Carbon(){
     // let carKmPerYear = parseFloat(prompt("How many kilometers do you drive per year?"));
     // let kmPerLitre = parseFloat(prompt("What is the fuel efficiency of your car (in kilometers per litre)?"));
@@ -24,6 +26,7 @@ export function Carbon(){
     return(
         <div id='carbon'>
             <Navbar/>
+            <></>
             <div className='section'>
                 <h1>Check Your Carbon Footprint:</h1>
                 <p>Lorem ipsum</p>
