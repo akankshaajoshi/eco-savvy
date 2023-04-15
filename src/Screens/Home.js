@@ -8,7 +8,7 @@ export function Home() {
 
     return (
         <div className="home">
-            <div id='blur'>
+            <div className='blur'>
                 <div id='home-content'>
                     <div >
                         <p id='intro'>
