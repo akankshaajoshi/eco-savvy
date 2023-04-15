@@ -16,12 +16,12 @@ function Navbar (){
           <a className="nav-link active" aria-current="page" href="#">Resources</a>
         </li>        
         <li className="nav-item">
-        <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">News</a>
         </li> 
+        <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">CFC</a>
         </li>        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">About us</a>
+          <a className="nav-link active" aria-current="page" href="#">About </a>
         </li>
       </ul>
     </div>
