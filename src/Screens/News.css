@@ -16,7 +16,6 @@
 #newsSection{
     padding-top: 8vh;
     margin: auto;
-    background-color: aqua;
     margin: 0px 3vw;
 }
 #news-para{
@@ -28,12 +27,11 @@
 #news-page{
     align-items: center;
     width: 100vw;
-    background-color: blue;
 }
 #App{
-    background-color: brown;
+
 }
 #news-content{
     width: 60%;
-    background-color: antiquewhite;
+
 }
