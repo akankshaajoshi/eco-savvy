@@ -1,40 +1,25 @@
-#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position:fixed;
-    z-index:1;
-    width:100%;
+.navbar{
+    float: right;
 }
 
 a.navbar-brand{
+    float: left;
     font-size: 40px;
     font-weight: bold;
     margin: 10px 20px;
     padding: 2px;
-    text-decoration: none;
 }
-.navbar-nav{
-    display: flex;
-    margin-right: 20px;
-}
+
 .navbar .nav-item{
-    /* float: right; */
-    list-style: none;
+    float: right;
+    padding: 10px;
 }
 
-.navbar a{
-    text-decoration: none;
-    padding:20px;
-}
-
-.navbar a:active{
+li:active{
     background-color: darkgreen;
 }
 
-.navbar a:hover{
+li:hover, .nav-item:hover{
     background-color: green;
     border: green;
 }
-
-
