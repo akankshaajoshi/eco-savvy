@@ -1,0 +1,35 @@
+.home{
+    background: linear-gradient(90deg,yellow ,green);
+    flex:1;
+}
+#home-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#intro{
+    display: flex;
+}
+.logo2{
+    width: 500px;
+}
+#fade{
+    background-color: #ffffff55;
+}
+.resource{
+    background-color: #00000055;
+}
+#news{
+    flex-direction: row;
+    display: flex;
+}
+.news-item{
+    height: 100px;
+    background-color: #22dd22;
+    margin: 10px;
+}
+#footer{
+    background-color: black;
+    color: grey;
+    padding: 10px 0px;
+}
