@@ -5,27 +5,35 @@
     position:fixed;
     z-index:1;
     width:100%;
+    background-color: #0000001d;
+    backdrop-filter:blur(10px);
+    height:65px;
+
 }
 
-a.navbar-brand{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 10px 20px;
-    padding: 2px;
-    text-decoration: none;
+.navbar-brand img{
+    /* margin-top:-7px; */
+    width:14vw;
 }
 .navbar-nav{
+    background-color: rgba(0, 0, 0, 0.353);
+    padding:5px 5px;
+    border-radius: 30px;
     display: flex;
     margin-right: 20px;
 }
 .navbar .nav-item{
     /* float: right; */
+    margin:10px;
     list-style: none;
 }
 
 .navbar a{
     text-decoration: none;
-    padding:20px;
+    padding:5px 15px;
+    color:white;
+    border-radius: 30px;
+    transition: 0.2s;
 }
 
 .navbar a:active{
