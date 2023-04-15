@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar (){
+export function Navbar(){
     return (
         <div id="nav">
         <a className="navbar-brand" href="#"><img src="https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/logo2.png?raw=true" alt="logo1" /></a>
