@@ -23,6 +23,10 @@ export function Carbon(){
     return(
         <div id='carbon'>
             <Navbar/>
+            <div className='section'>
+                <h1>Check Your Carbon Footprint:</h1>
+                <p>Lorem ipsum</p>
+            </div>
         </div>
     )
 }

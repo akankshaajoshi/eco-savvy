@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar (){
+export function Navbar(){
     return (
         <div>
         <a className="navbar-brand" href="#">EcoSavvy</a>
