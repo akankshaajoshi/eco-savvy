@@ -1,17 +1,33 @@
 #carbon{
     padding: 100px;
     background: url('https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/coal.jpg?raw=truehttps://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/coal.jpg?raw=true');
-    font: black 3px;
+    /* font: #404946 3px; */
 }
-
+.sections{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.386),rgba(8, 8, 8, 0.55));
+    backdrop-filter:blur(10px);
+}
 .carbon-section{
-    background-color: #99999999;
+    background-color: #3b3b3b16;
     margin-bottom: 0px !important;
     padding: 20px;
     padding-bottom: 20px !important;
     border-radius: 3px;
     width: 100%;
     text-align: left;
+    color: #C1F1E0;
+    display: grid;
+    grid: 1/2/5/6;
+}
+.carbon-section1{
+    background-color: #3b3b3b16;
+    margin-bottom: 0px !important;
+    padding: 20px;
+    padding-bottom: 20px !important;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+    color: #C1F1E0;
 }
 
 h1, p{
@@ -33,8 +49,59 @@ input{
     display: block;
     margin-left: 10px;
     align-items: center;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding:5px;
+    font-size: 20px;
+    width: 18vw;
+color: #C1F1E0;
 }
 
-button{
+.btn{
     margin-left: 15px;
+    font-size: 20px;
 }
+button {
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: #C1F1E0;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #000000;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  }
+  
+  button::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%, #C1F1E0 50%, #C1F1E0 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+  
+  button:hover::before {
+    width: 1.6em;
+    height: 1.6em;
+  }
+  
+  button:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background:transparent;
+    border-radius: 20px;
+    
+
+  }
