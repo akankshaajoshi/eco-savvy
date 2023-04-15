@@ -45,8 +45,13 @@
     background-image: url(/src/Resources/news.jpg);
 }
 #App{
-    background-color: brown;
+
 }
 #news-content{
     width: 60%;
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 890dea848f5c97ee3830313243d036c999b7d4eb
