@@ -7,7 +7,7 @@
 #blur {
     backdrop-filter: blur(5px);
     /* height:250vh; */
-    z-index: -1;
+    /* z-index: ; */
 }
 
 .home {
@@ -17,6 +17,7 @@
 }
 
 #home-content {
+    padding: 15vw 0px;
     display: flex;
     flex-direction: row;
     align-items: center;

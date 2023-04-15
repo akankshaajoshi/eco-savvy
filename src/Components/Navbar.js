@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar (){
     return (
-        <div>
+        <div id="nav">
         <a className="navbar-brand" href="#">EcoSavvy</a>
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
   <div className="container-fluid">
