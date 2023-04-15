@@ -27,18 +27,18 @@ export function News() {
       <header className="App-header">
         {loading ? "Loading..." : <Container>
           {newsData.map((newsData, index) =>
-            <Row className="d-flex justify-content-center">
-              <Col xs={12} className="h-25 d-inline-block" key={index}>
+            <Row>
+              <Col className="h-25 d-inline-block" key={index}>
                 <a target="_blank" href={newsData.url}>
-                  <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={newsData.urlToImage} />
-      <Card.Body>
-        <Card.Title>{newsData.title}</Card.Title>
-        <Card.Text>
-          {newsData.description}
-        </Card.Text>
-      </Card.Body>
-    </Card>
+                  <Card className='w-25'>
+                    <Card.Title>  {newsData.title}</Card.Title>
+                    <Card.Img src={newsData.urlToImage} />
+                    <Card.Body>
+                      <Card.Text>
+                        {newsData.description}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
                 </a>
               </Col>
             </Row>
