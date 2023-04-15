@@ -71,6 +71,17 @@
     width:44vw;
     border-radius: 20px;
 }
+#news {
+    display: flex;
+    flex-direction: row;
+}
+
+.news-item {
+    height: 40vh;
+    width: 200px;
+    background-color: #22dd22;
+    margin: 10px;
+}
 
 #footer {
     background-color: black;
