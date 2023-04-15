@@ -1,4 +1,5 @@
 import './Home.css';
+import { NavLink } from 'react-router-dom';
 
 export function Home() {
     let solar = "Solar energy is radiant light and heat from the Sun that is harnessed using a range of technologies such as solar power to generate electricity, solar thermal energy (including solar water heating), and solar architecture. It is an essential source of renewable energy, and its technologies are broadly characterized as either passive solar or active solar depending on how they capture and distribute solar energy or convert it into solar power. Active solar techniques include the use of photovoltaic systems, concentrated solar power, and solar water heating to harness the energy. Passive solar techniques include orienting a building to the Sun, selecting materials with favorable thermal mass or light-dispersing properties, and designing spaces that naturally circulate air."
@@ -13,7 +14,7 @@ export function Home() {
                         <p id='intro'>
                             EcoSavvy is a sustainable development-based information and product website that promotes renewable energy sources, such as solar, wind, and hydroelectric power. With the current scenario of global energy and resource management, sustainable development is essential for the efficient utilization and management of resources.
                         </p>
-                        <div id="about-left"><a href="test" className="button">About Us</a> </div></div>
+                        <div id="about-left"><NavLink to="/About" className="button">About Us</NavLink> </div></div>
                     <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' />
                 </div>
 
