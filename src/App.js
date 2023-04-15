@@ -1,12 +1,14 @@
 import './App.css';
-// import {Home} from './Screens/Home';
+import {Home} from './Screens/Home';
 import {Carbon} from './Screens/carbon';
 import {Navbar} from './Components/Navbar';
+import {News} from './Screens/News';
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Carbon/>
+      <News/>
     </div>
   );
 }
