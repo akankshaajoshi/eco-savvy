@@ -57,7 +57,7 @@ export function Home() {
                 </div>
 
                 <h1>News</h1>
-                <div id='news'>
+                {/* <div id='news'>
                     <div class='news-item'>
                         <img src='fsa' />
                         lorem ipsum
@@ -70,7 +70,7 @@ export function Home() {
                         <img src='ca' />
                         lorem ipsum
                     </div>
-                </div>
+                </div> */}
             </div>
             <div id='footer'>
                 Copyright@EcoSavvy2023
