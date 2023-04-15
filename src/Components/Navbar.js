@@ -1,27 +1,27 @@
 import React from 'react';
 import './Navbar.css';
-
+import { Link, NavLink} from "react-router-dom";
 function Navbar (){
     return (
-        <div>
-        <a className="navbar-brand" href="#">EcoSavvy</a>
+        <div id="nav">
+        <a className="navbar-brand" href="#"><img src="https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/logo2.png?raw=true" alt="logo1" /></a>
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
   <div className="container-fluid">
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item float-right">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        <Link to="/home">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Resources</a>
+        <a href="/home#resource-section">Resources</a>
         </li>        
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">News</a>
+        <NavLink to="/News">News</NavLink>
         </li> 
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">CFC</a>
+          <NavLink to="/CFC">CFC</NavLink>
         </li>        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">About </a>
+          <NavLink to="/About">About</NavLink>
         </li>
       </ul>
     </div>

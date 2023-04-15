@@ -1,0 +1,8 @@
+.App{
+    width: 80%;
+    overflow: hidden;
+}
+
+Card.Body{
+    text-align: center;
+}
