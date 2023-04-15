@@ -68,7 +68,7 @@ export function Carbon(){
                                 <input type='number' id='plantConsumption' defaultValue={0} min={0}/>
                         </div>
                         <br/>
-                        <button type='submit'>Submit</button>
+                        <button type='submit' className='btn btn-primary'>Submit</button>
                         <br/>
                         Your annual carbon footprint is {totalFootprint.toFixed(2)} metric tonnes of CO2 equivalent.
                     </form>
