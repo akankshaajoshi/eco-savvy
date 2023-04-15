@@ -44,6 +44,7 @@ export function Carbon() {
           </div>
           <div className="carbon-section" id="input">
             <form onSubmit={handleSubmit}>
+            <div className="grid1">
               <div className="question">
                 How many kilometers do you drive per year?
                 <input
@@ -54,6 +55,7 @@ export function Carbon() {
                 />
               </div>
               <br></br>
+              
               <div className="question">
                 What is the fuel efficiency of your car (in kilometers per
                 litre)?
@@ -81,14 +83,16 @@ export function Carbon() {
               </div>{" "}
               <br></br>
               <div className="question">
-                How many kilowatt-hours of electricity do you use per year?
+              How many kilometers do you take the Bus per year?
                 <input
                   type="number"
                   id="trainKmPerYear"
                   defaultValue={0}
                   min={0}
                 />
-              </div>{" "}
+                </div>
+                </div>{" "}
+              <div className="grid2">
               <br></br>
               <div className="question">
                 How many kilowatt-hours of electricity do you use per year?
@@ -129,13 +133,15 @@ export function Carbon() {
                   min={0}
                 />
               </div>
+              </div>
               <br />
               <button type="submit" className="btn btn-primary">
                 Submit
               </button>
               <br />
-              Your annual carbon footprint is {totalFootprint.toFixed(2)} metric
+              Your annual carbon footprint is <b>{totalFootprint.toFixed(2)}</b> metric
               tonnes of CO2 equivalent.
+              
             </form>
           </div>
         </div>

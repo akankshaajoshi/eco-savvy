@@ -16,8 +16,10 @@
     width: 100%;
     text-align: left;
     color: #C1F1E0;
-    display: grid;
-    grid: 1/2/5/6;
+}
+.grid1{
+   float: left;
+   width: 50%; 
 }
 .carbon-section1{
     background-color: #3b3b3b16;
