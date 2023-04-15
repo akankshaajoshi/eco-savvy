@@ -1,8 +1,39 @@
-.App{
-    width: 80%;
-    overflow: hidden;
+#news-img{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: inline;
 }
-
-Card.Body{
+#newsbox{
+    background-color: #000000aa;
+    margin: 20px 5vw;
+    text-align: left;
+    padding: 10px 30px;
+    border-radius: 20px;
     text-align: center;
+    height: 100px;
+
+}
+#newsSection{
+    padding-top: 8vh;
+    margin: auto;
+    background-color: aqua;
+    margin: 0px 3vw;
+}
+#news-para{
+
+}
+#news-title{
+    
+}
+#news-page{
+    align-items: center;
+    width: 100vw;
+    background-color: blue;
+}
+#App{
+    background-color: brown;
+}
+#news-content{
+    width: 60%;
+    background-color: antiquewhite;
 }
