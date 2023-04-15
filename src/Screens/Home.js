@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 import './Home.css';
+=======
+>>>>>>> Stashed changes
 
 export function Home(){
     return(
