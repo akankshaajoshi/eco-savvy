@@ -8,7 +8,7 @@ export function Home(){
                     <p id='intro'>
                         EcoSavvy is a sustainable development based information and product website which promotes renewable energy sources, such as solar, wind, and hydroelectric power.
                     </p>
-                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/mayank/src/Resources/Logo%202.png?raw=true' className='logo2'/>
+                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/113f52fb5e896f3c4b3ed4e1c0e26dea7d597e55/src/Resources/logo1.png' className='logo2'/>
                 </div>
                 <div id='resorce-section'>
                     <div id='res-1' className='resource'>

@@ -1,6 +1,7 @@
 .home{
-    background: linear-gradient(90deg,yellow ,green);
-    flex:1;
+    background-image: url(/src/Resources/pexels-deva-darshan-1173777.jpg);
+    flex: 1;
+    
 }
 #home-content{
     display: flex;
