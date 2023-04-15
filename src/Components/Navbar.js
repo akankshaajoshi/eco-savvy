@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar (){
     return (
         <div id="nav">
-        <a className="navbar-brand" href="#">EcoSavvy</a>
+        <a className="navbar-brand" href="#"><img src="https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/logo2.png?raw=true" alt="logo1" /></a>
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
   <div className="container-fluid">
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
