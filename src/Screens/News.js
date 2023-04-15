@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function News() {
+export function News() {
 
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -52,5 +52,3 @@ function News() {
     </div>
   );
 }
-
-export default News;

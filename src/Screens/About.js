@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 
-function About() {
+export function About() {
   return (
     <>
     <div className="grid">
@@ -36,5 +36,3 @@ in the field of sustainable technologies.</li>
     </>
   )
 }
-
-export default About;
