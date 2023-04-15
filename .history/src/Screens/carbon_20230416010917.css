@@ -1,0 +1,18 @@
+#carbon{
+    padding-top: 100px;
+    background: url('https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/coal.jpg?raw=truehttps://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/coal.jpg?raw=true');
+}
+.carbon-section{
+    background-color: #99999999;
+    margin-top:100px;
+}
+.sections{
+    
+}
+.question{
+    display: inline;
+}
+#input{
+    display: flex;
+    flex-direction: row;
+}
