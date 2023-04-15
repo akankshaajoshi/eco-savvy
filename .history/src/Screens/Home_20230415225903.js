@@ -21,29 +21,29 @@ export function Home() {
                     <div id='res-1' className='resource'>
                         <h1>Solar Energy</h1>
                         <p>
-                            {solar.slice(0, 400)+"..."}
+                            {solar.slice(0, 40)+"..."}
                         </p>
                         <a href='https://en.wikipedia.org/wiki/Solar_energy'>Read More</a>
                         <a href='https://www.amazon.in/Solar-Panels/b?ie=UTF8&node=3639338031'>Buy Here</a>
-                        <img src='src\Resources\solar energy.jpg' className='im' alt = 'solar energy'/>
+                        <img src='src\Resources\solar energy.jpg' className='im' />
                     </div>
                     <div id='res-2' className='resource'>
                         <h1>Hydro Energy</h1>
                         <p>
-                        {hydro.slice(0, 400)+"..."}
+                        {hydro.slice(0, 40)+"..."}
                             <a href='https://en.wikipedia.org/wiki/Hydropower#:~:text=Hydropower%20(from%20Ancient%20Greek%20%E1%BD%91%CE%B4%CF%81%CE%BF,water%20source%20to%20produce%20power.'>Read More</a>
                         </p>
                         <a href='https://www.energy.gov/energysaver/articles/energy-101-video-hydroelectric-power'>Know More</a>
-                        <img src='src\Resources\hydro energy.jpg' className='im' alt = 'hydro energy'/>
+                        <img src='src\Resources\hydro energy.jpg' className='im'/>
                     </div>
                     <div id='res-3' className='resource'>
                         <h1>Wind Energy</h1>
                         <p>
-                        {wind.slice(0, 400)+"..."}
+                        {wind.slice(0, 40)+"..."}
                             <a href='https://en.wikipedia.org/wiki/Wind_power'>Read More</a>
                         </p>
                         <a href='https://dir.indiamart.com/impcat/wind-turbine.html'>Buy Here</a>
-                        <img src='src\Resources\wind power.jpg' className='im' alt='wind energy'/>
+                        <img src='src\Resources\wind power.jpg' className='im' />
                     </div>
                 </div>
 
