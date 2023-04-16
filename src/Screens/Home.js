@@ -10,7 +10,7 @@ export function Home() {
     const [newsData, setNewsData] = useState([]);
 
     async function getNewsData() {
-        const resp = await axios.get("https://newsapi.org/v2/everything?q=sustainable development&apiKey=22e7c582a80146a09ca0537125a6608f");
+        const resp = await axios.get("https://newsapi.org/v2/everything?q=sustainable development&apiKey=dbecf8f4544f452892e5ec3b3f26b8cc");
         setNewsData(resp.data.articles);
     }
 
