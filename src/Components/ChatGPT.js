@@ -2,13 +2,10 @@ import { Configuration, OpenAIApi } from "openai";
 import { useState } from "react";
 import './ChatGPT.css';
 
-fetch('../Resources/key.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
-// console.log(Key.Key);
+import key from '../Resources/key.json';
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    // apiKey: Key.Key,
+    apiKey: key.Key,
 });
 
 const openai = new OpenAIApi(configuration);
