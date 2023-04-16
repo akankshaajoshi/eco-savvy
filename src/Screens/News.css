@@ -6,7 +6,7 @@
 #news-img{
     border-radius: 10px;
     z-index: 2;
-    height:106px;
+    height:140px;
     object-fit: cover;
 }
 
@@ -15,14 +15,19 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #1f1e1e6f;
-    margin: 20px 5vw;
+    margin: 40px 60px;
     text-align: left;
-    padding: 20px 30px;
+    padding: 40px 40px;
     border-radius: 20px;
     text-align: center;
-    height: 20vh;
+    height: auto;
     backdrop-filter: blur(10px);
     z-index: -1;
+    transition: 0.2s;
+}
+#newsbox:hover{
+    box-shadow:10px 5px 20px rgba(0, 0, 0, 0.611); 
+    transform: translate(-2px,-2px);
 }
 #newsSection{
     padding-top: 8vh;
