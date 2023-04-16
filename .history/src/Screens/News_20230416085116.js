@@ -32,7 +32,7 @@ export function News() {
                 </div>
                 </a>
                 <a target="_blank" href={newsData.url} rel='noreferrer'>
-                  <img id='news-img' src={newsData.urlToImage} width="200px" alt='newsimage'/>
+                  <img id='news-img' src={newsData.urlToImage} width="200px" alt='news image'/>
                 </a>
           </div>
           )}

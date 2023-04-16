@@ -27,7 +27,7 @@ export function Home() {
                         </p>
                         <div id="about-left"><NavLink to="/About" className="button">About Us</NavLink> </div>
                     </div>
-                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' alt='logo'/>
+                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' />
                 </div>
 
                 <div id='resource-section'>
