@@ -2,9 +2,13 @@ import { Configuration, OpenAIApi } from "openai";
 import { useState } from "react";
 import './ChatGPT.css';
 
+fetch('../Resources/key.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+// console.log(Key.Key);
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    apiKey: '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',
+    // apiKey: Key.Key,
 });
 
 const openai = new OpenAIApi(configuration);
@@ -32,7 +36,7 @@ export function ChatGPT(){
         <form onSubmit={(e) => {handleSubmit(e)}}>
         <div id='chat'>
             {chat.map((mess,index)=>(
-                index%2==0?
+                index%2===0?
                 <div className="flex-right"><div className='mess' id='mess0'>
                 <p>{mess}</p>
                 </div></div>:<div className="flex-left"><div className='mess' id='mess1'>
