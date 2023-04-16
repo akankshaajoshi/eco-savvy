@@ -80,6 +80,7 @@ html{
 }
 #resource-section h1{
 margin-top: 20px;
+font-style: italic;
 }
 
 #footer {
@@ -98,7 +99,7 @@ margin-top: 20px;
     margin:50px 0px;
     width:16%;
     border-radius: 30px;
-    padding:20px;
+    padding:30px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -110,6 +111,9 @@ margin-top: 20px;
 }
 #vert-news-title{
     margin-bottom:15px;
+    font-size: 1.3vw;
+    /* font-weight:lighter; */
+    line-height: 30px;
 }
 #read-more{
     margin: 20px;
