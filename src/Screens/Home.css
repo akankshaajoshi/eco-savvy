@@ -38,7 +38,7 @@
 .button {
     text-decoration: none;
     color: white;
-    background: linear-gradient(90deg, rgba(181, 255, 183, 0.899), rgb(61, 253, 61));
+    background: linear-gradient(90deg, rgba(18, 80, 20, 0.899), rgb(13, 184, 13));
     padding: 10px 20px;
     border-radius: 30px;
 }
