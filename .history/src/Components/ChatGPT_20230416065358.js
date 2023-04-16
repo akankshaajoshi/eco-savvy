@@ -4,7 +4,7 @@ import './ChatGPT.css';
 
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    apiKey: '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',
+    apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
@@ -16,15 +16,14 @@ export function ChatGPT(){
         e.preventDefault();
         let message={"role": "user", "content": e.target.message.value};
         async function feed() {
-            let promise = new Promise(function(setMessages, reject) {
+            let promise = await new Promise(function(setMessages, reject) {
               setMessages(...messages,message);
             });
-            await promise;
         }
+          
         feed();
-        setMessages(...messages,message);
         console.log(messages);
-
+        
         var output=openai.createChatCompletion({
                 "model": "gpt-3.5-turbo",
                 "messages": messages,
@@ -38,7 +37,6 @@ export function ChatGPT(){
     return(
         <div id='Gpt'>
         <form onSubmit={(e) => {handleSubmit(e)}}>
-        <div id='chat'></div>
             <input type="text" id='message'/>
             <button type='submit'>send</button>
         </form>

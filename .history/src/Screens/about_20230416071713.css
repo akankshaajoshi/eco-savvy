@@ -2,7 +2,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
 #about{
     color: #C1F1E0;
     
@@ -12,8 +11,6 @@
 }
 .grid{
     background-image: linear-gradient(rgba(44, 44, 51, 0.712),rgba(112, 120, 121, 0.596),rgba(160, 154, 154, 0));
-    overflow: hidden;
-    margin-bottom: -100px;
 }
 h1{
     text-align: center;
@@ -21,12 +18,12 @@ h1{
     margin-bottom: 30px !important;
 }
 .ingrid{
+   
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 20vh 4vw;
-    padding-top: 90px;
     border-radius: 12px;
     font-size: larger;
     padding-right: 10px;
@@ -39,8 +36,8 @@ p{
 ol{
     text-align: left;
 }
-.g-col-6{
-    line-height: 30px;
+li{
+    line-height: 50px;
 }
 iframe{
     background-color: rgba(90, 143, 152, 0.406);

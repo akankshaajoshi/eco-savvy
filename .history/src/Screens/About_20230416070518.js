@@ -29,7 +29,6 @@ in the field of sustainable technologies.</li>
     </div>
     </div>
     </div>
-    <div className="container">
     <h3>Reach out to us!</h3>
     <div className='bottom'>
         <div><a href="#" style={{display: 'inline-block'}}><FaFacebook></FaFacebook></a></div>
@@ -37,7 +36,6 @@ in the field of sustainable technologies.</li>
         <div><a href="#" style={{display: 'inline-block'}}><FaTwitter></FaTwitter></a></div>
         <div><a href="#" style={{display: 'inline-block'}}><FaLinkedin></FaLinkedin></a></div>
         <div><a href="#" style={{display: 'inline-block'}}><FaMailBulk></FaMailBulk></a></div>
-    </div>
     </div>
     </div>
   )

@@ -28,8 +28,7 @@ in the field of sustainable technologies.</li>
         <div className="g-col-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1583.6669095201187!2d79.55434014805883!3d29.35645515673876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a099dbdc0befa7%3A0xa08407c1dac1f3ac!2sBirla%20Institute%20of%20Applied%20Sciences%2C%20Bhimtal-263136%20(Uttarakhand)!5e0!3m2!1sen!2sin!4v1681580326265!5m2!1sen!2sin" width="500" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map"></iframe>
     </div>
     </div>
-    </div>
-    <div className="container">
+    <div className='footer'>
     <h3>Reach out to us!</h3>
     <div className='bottom'>
         <div><a href="#" style={{display: 'inline-block'}}><FaFacebook></FaFacebook></a></div>
@@ -37,7 +36,6 @@ in the field of sustainable technologies.</li>
         <div><a href="#" style={{display: 'inline-block'}}><FaTwitter></FaTwitter></a></div>
         <div><a href="#" style={{display: 'inline-block'}}><FaLinkedin></FaLinkedin></a></div>
         <div><a href="#" style={{display: 'inline-block'}}><FaMailBulk></FaMailBulk></a></div>
-    </div>
     </div>
     </div>
   )
