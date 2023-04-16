@@ -1,4 +1,15 @@
 #Gpt{
     background-color: red;
-    padding-top: 20vw;
+    padding-top: 5vw;
+    height:100vh;
+}
+#chat{
+    background-color: #00000066;
+    height:60vh;
+    margin: 50px 10vw;
+    border-radius: 20px;
+}
+#message{
+    width: 80vw;
+    margin: 20px auto;
 }
