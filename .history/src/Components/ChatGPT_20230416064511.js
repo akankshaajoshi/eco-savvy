@@ -23,7 +23,6 @@ export function ChatGPT(){
           
         feed();
         console.log(messages);
-        
         var output=openai.createChatCompletion({
                 "model": "gpt-3.5-turbo",
                 "messages": messages,
