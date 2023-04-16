@@ -53,7 +53,7 @@ export function Home() {
 
                         <a className="button" href='https://dir.indiamart.com/impcat/wind-turbine.html'>Buy Here</a>
                         <br/>
-                        <img src='src\Resources\wind power.jpg' className='im' alt='wind energy' />
+                        <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/wind%20power.jpg?raw=true' className='im' alt='wind energy' />
                     </div>
                 </div>
 
