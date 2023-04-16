@@ -11,19 +11,19 @@ const openai = new OpenAIApi(configuration);
 
 export function ChatGPT(){
     let [messages,setMessages]=useState([{"role": "system", "content": "You will only answer queries related to sustainable development."}]);
-    let [chat, setChat]=useState([]);
+    let [chat,setChat]=useState([]);
     const handleSubmit = (e) => {
         e.preventDefault();
         let message={"role": "user", "content": e.target.message.value};
         async function feed() {
-            let promise = await new Promise(function(setMessages, reject) {
+            let promise = new Promise(function(setMessages, reject) {
               setMessages(...messages,message);
             });
+            await promise;
         }
           
         feed();
         console.log(messages);
-        
         var output=openai.createChatCompletion({
                 "model": "gpt-3.5-turbo",
                 "messages": messages,
