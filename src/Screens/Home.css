@@ -39,13 +39,25 @@ html{
 }
 
 
+
 .button {
     text-decoration: none;
     color: white;
     background: linear-gradient(90deg, rgba(18, 80, 20, 0.899), rgb(13, 184, 13));
     padding: 10px 20px;
-    border-radius: 30px;
-}
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  .button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #d3ffcb;
+  }
+  
 
 #about-left {
     margin-left: 90px;
@@ -104,6 +116,11 @@ font-style: italic;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
+    transition: 0.2s;
+}
+#vert-newsbox:hover{
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.555);
+    transform: translate(-2px,-3px);
 }
 #vert-news-img{
     border-radius: 10px;
