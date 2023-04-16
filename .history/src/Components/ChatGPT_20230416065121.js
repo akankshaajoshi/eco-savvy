@@ -4,7 +4,7 @@ import './ChatGPT.css';
 
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    apiKey: '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',
+    apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
@@ -37,7 +37,6 @@ export function ChatGPT(){
     return(
         <div id='Gpt'>
         <form onSubmit={(e) => {handleSubmit(e)}}>
-        <div id='chat'></div>
             <input type="text" id='message'/>
             <button type='submit'>send</button>
         </form>
