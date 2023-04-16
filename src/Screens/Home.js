@@ -38,11 +38,11 @@ export function Home() {
                         <p>
                             {solar.slice(0, 400) + "..."}
                         </p>
-                        <br/>
+                        <br />
                         <a href='https://en.wikipedia.org/wiki/Solar_energy' className="button">Read More</a>
 
                         <a className="button" href='https://www.amazon.in/Solar-Panels/b?ie=UTF8&node=3639338031'>Buy Here</a>
-                        <br/>
+                        <br />
                         <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/solar%20energy.jpg?raw=true' className='im' alt='solar energy' />
                     </div>
                     <div id='res-2' className='resource'>
@@ -50,11 +50,11 @@ export function Home() {
                         <p>
                             {hydro.slice(0, 400) + "..."}
                         </p>
-                        <br/>
+                        <br />
                         <a className="button" href='https://en.wikipedia.org/wiki/Hydropower#:~:text=Hydropower%20(from%20Ancient%20Greek%20%E1%BD%91%CE%B4%CF%81%CE%BF,water%20source%20to%20produce%20power.'>Read More</a>
 
                         <a className="button" href='https://www.energy.gov/energysaver/articles/energy-101-video-hydroelectric-power'>Know More</a>
-                        <br/>
+                        <br />
                         <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/hydro%20energy.jpg?raw=true' className='im' alt='hydro energy' />
                     </div>
                     <div id='res-3' className='resource'>
@@ -62,32 +62,34 @@ export function Home() {
                         <p>
                             {wind.slice(0, 400) + "..."}
                         </p>
-                        <br/>
+                        <br />
                         <a className="button" href='https://en.wikipedia.org/wiki/Wind_power'>Read More</a>
 
                         <a className="button" href='https://dir.indiamart.com/impcat/wind-turbine.html'>Buy Here</a>
-                        <br/>
+                        <br />
                         <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/wind%20power.jpg?raw=true' className='im' alt='wind energy' />
                     </div>
                 </div>
 
                 <h1>News</h1>
-                <div id='newsSection'>
-                    {newsData.slice(0,5).map((newsData, index) =>
-                        <div key={index} id='newsbox'>
+                <div id='news-section'>
+                    {newsData.slice(0, 5).map((newsData, index) =>
+                        <div key={index} id='vert-newsbox'>
                             <a target="_blank" href={newsData.url}>
-                            <div id='news-content'>
-                            <h2 id='news-title'>{newsData.title}</h2>
-                            <p id='news-para'>{newsData.description}</p>
-                            </div>
+                                <div id='vert-news-content'>
+                                    <h2 id='vert-news-title'>{newsData.title}</h2>
+                                    {/* <p id='vert-news-para'>{newsData.description}</p> */}
+                                </div>
                             </a>
                             <a target="_blank" href={newsData.url}>
-                            <img id='news-img' src={newsData.urlToImage} width="200px"/>
+                                <img id='vert-news-img' src={newsData.urlToImage} width="200px" />
                             </a>
                         </div>
+                        
                     )}
-
+                   
                 </div>
+                <a href='test' className='button' id="read-more">Read More</a>
             </div>
             <div id='footer'>
                 Copyright@EcoSavvy2023
