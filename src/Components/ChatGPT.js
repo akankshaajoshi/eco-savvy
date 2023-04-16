@@ -4,33 +4,25 @@ import './ChatGPT.css';
 
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    apiKey: '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',
+    apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
 
 export function ChatGPT(){
-    let [messages,setMessages]=useState([{"role": "system", "content": "You will only answer queries related to sustainable development."}]);
-    let [chat, setChat]=useState(['Assistant','user','Assistant2','user2','Assistant3','user3']);
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        let message={"role": "user", "content": e.target.message.value};
-        async function feed() {
-            let promise = new Promise(function(setMessages, reject) {
-              setMessages(...messages,message);
-            });
-            await promise;
-        }
-        feed();
-        setMessages(...messages,message);
-        console.log(messages);
+    let [chat, setChat]=useState(['Assistant','user','Assistant2']);
+   const handleSubmit = (e) => {
+        e.preventDefault();  
+        let messagee=e.target.message.value;  
+        setChat([...chat,messagee]);
+        openai.createCompletion({
+                "model": "text-davinci-003",
+                "prompt": messagee,
+                'temperature':0
 
-        var output=openai.createChatCompletion({
-                "model": "gpt-3.5-turbo",
-                "messages": messages,
         }).then((output)=>{
-            console.log(output.data.choices[0].message.content);
-            setMessages([...messages,output.data.choices[0].message]);
+            console.log(output.data.choices[0].text);
+            setChat([...chat,messagee,output.data.choices[0].text]);
         });
         
     }
@@ -39,9 +31,12 @@ export function ChatGPT(){
         <div id='Gpt'>
         <form onSubmit={(e) => {handleSubmit(e)}}>
         <div id='chat'>
-            {chat.map((mess)=>(
-                <div className='mess' id='mess1'>
-                {<p>mess</p>}
+            {chat.map((mess,index)=>(
+                index%2==0?
+                <div className="flex-right"><div className='mess' id='mess0'>
+                <p>{mess}</p>
+                </div></div>:<div className="flex-left"><div className='mess' id='mess1'>
+                <p>{mess}</p></div>
                 </div>
             ))}
         </div>

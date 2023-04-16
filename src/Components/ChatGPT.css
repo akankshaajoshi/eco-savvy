@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    overflow: hidden;
+    padding :10px 50px;
     
 }
 #message{
@@ -19,14 +21,19 @@
 }   
 .mess{
     border-radius: 10px;
-    background-color: red;
-    margin: 10px auto;
+    background-color: #00000055;
+    margin: 10px 0px;
     padding: 10px;
-    overflow: hidden;
+    
 }
-#mess0{
-    float: left;
+
+.flex-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-#mess1{
-    float: right;
+.flex-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
