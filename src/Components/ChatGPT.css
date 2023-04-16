@@ -1,9 +1,12 @@
 #Gpt{
-    background-color: grey;
+    background-image: url('https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/pexels-photo-8386437.jpeg?raw=true');
+   background-size: 100%;
+   background-position: 20% 60%;
     padding-top: 5vw;
     height:100vh;
 }
 #chat{
+    backdrop-filter:blur(10px);
     background-color: #00000066;
     height:60vh;
     margin: 50px 10vw;
@@ -16,8 +19,9 @@
     
 }
 #message{
+    backdrop-filter:blur(10px);
     width: 80vw;
-    margin: 20px auto;
+    margin: auto;
 }   
 .mess{
     border-radius: 10px;
