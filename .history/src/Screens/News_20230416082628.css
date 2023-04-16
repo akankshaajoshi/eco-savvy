@@ -39,14 +39,8 @@
 #news-content{
     width: 80%;
     text-align: left;
-    padding: 10px;
-}
-
-#news-para{
-    max-height: max-content;
-    text-align: left;
 }
 #news-box a{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
