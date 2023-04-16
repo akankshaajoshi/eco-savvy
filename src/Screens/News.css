@@ -47,9 +47,9 @@
 
 }
 #news-content{
-    width: 60%;
+    width: 80%;
+    text-align: left;
 }
 #news-box a{
     display: inline-block;
-    width:20px;
 }
