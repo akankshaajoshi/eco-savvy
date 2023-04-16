@@ -38,7 +38,9 @@ export function ChatGPT(){
     return(
         <div id='Gpt'>
         <form onSubmit={(e) => {handleSubmit(e)}}>
-        <div id='chat'></div>
+        <div id='chat'>
+            
+        </div>
             <input type="text" id='message'/>
             <button type='submit'>send</button>
         </form>
