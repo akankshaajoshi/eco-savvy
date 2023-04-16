@@ -30,6 +30,8 @@ export function News() {
                   <h2 id='news-title'>{newsData.title}</h2>
                   <p id='news-para'>{newsData.description}</p>
                 </div>
+                </a>
+                <a target="_blank" href={newsData.url}>
                   <img id='news-img' src={newsData.urlToImage} width="200px"/>
                 </a>
           </div>
