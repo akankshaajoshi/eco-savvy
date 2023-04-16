@@ -1,12 +1,14 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #about{
     color: #C1F1E0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: contain;
     background-image: url(/src/Resources/Aboutback.jpg);
+    background-repeat: no-repeat;
+
 }
 .grid{
     background-image: linear-gradient(rgba(44, 44, 51, 0.712),rgba(112, 120, 121, 0.596),rgba(160, 154, 154, 0));
