@@ -20,9 +20,14 @@
     padding: 30px 50px;
     border-radius: 20px;
     text-align: center;
-    height: auto;
+    height: 28vh;
     backdrop-filter: blur(10px);
     z-index: -1;
+    transition:0.2s;
+}
+#newsbox:hover{
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.555);
+    transform: translate(-2px,-3px);
 }
 #newsSection{
     padding-top: 80px;
