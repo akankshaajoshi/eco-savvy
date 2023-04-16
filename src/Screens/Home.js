@@ -70,7 +70,7 @@ export function Home() {
                     </div>
                 </div>
 
-                <h1><i>News</i></h1>
+                <h1>News</h1>
                 <div id='news-section'>
                     {newsData.slice(0, 5).map((newsData, index) =>
                         <div key={index} id='vert-newsbox'>

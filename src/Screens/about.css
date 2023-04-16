@@ -9,7 +9,7 @@
     background-image: url(/src/Resources/Aboutback.jpg);
 }
 .grid{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(42, 42, 42, 0.596),rgba(160, 154, 154, 0));
+    background-image: linear-gradient(rgba(44, 44, 51, 0.712),rgba(112, 120, 121, 0.596),rgba(160, 154, 154, 0));
     overflow: hidden;
     margin-bottom: -100px;
 }
@@ -70,7 +70,6 @@ h3{
     color: #C1F1E0;
     padding-left: 20px;
 }
-
 .container{
     margin-left: 20px;
     margin-top: -150px;
