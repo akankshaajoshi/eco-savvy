@@ -10,7 +10,7 @@ html{
 
 .blur {
     backdrop-filter: blur(5px);
-    height:124cm;
+    height:280em;
 }
 
 .home {
@@ -24,6 +24,7 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 #intro {
@@ -38,25 +39,14 @@ html{
 }
 
 
-
-
 .button {
     text-decoration: none;
     color: white;
     background: linear-gradient(90deg, rgba(18, 80, 20, 0.899), rgb(13, 184, 13));
     padding: 10px 20px;
     border-radius: 30px;
-    border: none;
-    width: 120px;
-    height: 45px;
-    transition: .3s;
-  }
-  
-  .button:hover {
-    background-color: #3b82f6;
-    box-shadow: 0 0 0 5px #3b83f65f;
-    color: #e7ffe2;
-  }
+}
+
 #about-left {
     margin-left: 90px;
     display: flex;
@@ -110,18 +100,13 @@ margin-top: 20px;
 #vert-newsbox{
     background-color: #00000050;
     margin:50px 0px;
-    width:17%;
+    width:16%;
     border-radius: 30px;
     padding:20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
-    transition: 0.2s;
-}
-#vert-newsbox:hover{
-    box-shadow:10px 5px 20px rgba(0, 0, 0, 0.611); 
-    transform: translate(-2px,-2px);
 }
 #vert-news-img{
     border-radius: 10px;
