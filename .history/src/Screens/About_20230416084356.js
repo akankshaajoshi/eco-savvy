@@ -13,6 +13,7 @@ export function About() {
         <div className="g-col-6">
             <h1>About Us</h1>
             <p>EcoSavvy is developed by a team of 5 members pursuing undergraduate in computer science and engineering at Birla Institute of Applied Sciences. It is created with the motive to promote an innovative approach towards sustainability and sustainable development. We aim to:
+                <br></br>
                 <ol>
                     <li>Create awareness regarding sustainability and sustainable development methods.</li>
                     <li>Promote an enhanced rate of application of theoritical solutions to improve the condition of environment.</li>
@@ -31,11 +32,11 @@ in the field of sustainable technologies.</li>
     <div className="container">
     <h3>Reach out to us!</h3>
     <div className='bottom'>
-        <div><a href="https://www.facebook.com/" style={{display: 'inline-block'}} rel='noreferrer'><FaFacebook></FaFacebook></a></div>
-        <div><a href="https://www.instagram.com/" style={{display: 'inline-block'}} rel='noreferrer'><FaInstagram/></a></div>
-        <div><a href="https://twitter.com/home" style={{display: 'inline-block'}} rel='noreferrer'><FaTwitter></FaTwitter></a></div>
-        <div><a href="https://in.linkedin.com/" style={{display: 'inline-block'}} rel='noreferrer'><FaLinkedin></FaLinkedin></a></div>
-        <div><a href="https://mail.google.com/mail/" style={{display: 'inline-block'}} rel='noreferrer'><FaMailBulk></FaMailBulk></a></div>
+        <div><a href="#" style={{display: 'inline-block'}}><FaFacebook></FaFacebook></a></div>
+        <div><a href="#" style={{display: 'inline-block'}}><FaInstagram/></a></div>
+        <div><a href="#" style={{display: 'inline-block'}}><FaTwitter></FaTwitter></a></div>
+        <div><a href="#" style={{display: 'inline-block'}}><FaLinkedin></FaLinkedin></a></div>
+        <div><a href="#" style={{display: 'inline-block'}}><FaMailBulk></FaMailBulk></a></div>
     </div>
     </div>
     </div>

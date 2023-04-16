@@ -8,10 +8,13 @@ export function Home() {
     let hydro = "Hydropower , also known as water power, is the use of falling or fast-running water to produce electricity or to power machines. This is achieved by converting the gravitational potential or kinetic energy of a water source to produce power. Hydropower is a method of sustainable energy production. Hydropower is now used principally for hydroelectric power generation, and is also applied as one half of an energy storage system known as pumped-storage hydroelectricity.";
     let wind = "Wind power is the use of wind energy to generate useful work. Historically, wind power was used by sails, windmills and windpumps, but today it is mostly used to generate electricity. This article deals mostly with wind power for electricity generation. Today, wind power is almost completely generated with wind turbines, generally grouped into wind farms and connected to the electrical grid. In 2021, wind supplied over 1800 TWh of electricity, which was over 6% of world electricity and about 2% of world energy. With about 100 GW added during 2021, mostly in China and the United States, global installed wind power capacity exceeded 800 GW. To help meet the Paris Agreement goals to limit climate change, analysts say it should expand much faster - by over 1% of electricity generation per year.";
     const [newsData, setNewsData] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     async function getNewsData() {
+        setLoading(true);
         const resp = await axios.get("https://newsapi.org/v2/everything?q=sustainable development&apiKey=22e7c582a80146a09ca0537125a6608f");
         setNewsData(resp.data.articles);
+        setLoading(false);
     }
 
     useEffect(() => {
@@ -27,7 +30,7 @@ export function Home() {
                         </p>
                         <div id="about-left"><NavLink to="/About" className="button">About Us</NavLink> </div>
                     </div>
-                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' alt='logo'/>
+                    <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' />
                 </div>
 
                 <div id='resource-section'>
@@ -74,16 +77,17 @@ export function Home() {
                 <div id='news-section'>
                     {newsData.slice(0, 5).map((newsData, index) =>
                         <div key={index} id='vert-newsbox'>
-                            <a target="_blank" href={newsData.url} rel='noreferrer'>
+                            <a target="_blank" href={newsData.url}>
                                 <div id='vert-news-content'>
                                     <h2 id='vert-news-title'>{newsData.title}</h2>
                                     {/* <p id='vert-news-para'>{newsData.description}</p> */}
                                 </div>
                             </a>
-                            <a target="_blank" href={newsData.url} rel='noreferrer'>
-                                <img id='vert-news-img' src={newsData.urlToImage} width="200px" alt='newsImage' />
+                            <a target="_blank" href={newsData.url}>
+                                <img id='vert-news-img' src={newsData.urlToImage} width="200px" />
                             </a>
                         </div>
+
                     )}
 
                 </div>

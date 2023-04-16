@@ -34,18 +34,12 @@
     align-items: center;
     width: 100vw;
     background-image: url("https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/news.jpg?raw=true");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 #news-content{
     width: 80%;
     text-align: left;
     padding: 10px;
-}
-
-#news-title{
-    padding-top: 10px;
 }
 
 #news-para{

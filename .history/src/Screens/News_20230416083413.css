@@ -35,7 +35,6 @@
     width: 100vw;
     background-image: url("https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/news.jpg?raw=true");
     background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 #news-content{
