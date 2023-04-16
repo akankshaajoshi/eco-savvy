@@ -1,0 +1,49 @@
+#Gpt{
+    background-image: url('https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/pexels-photo-8386437.jpeg?raw=true');
+   background-size: 100%;
+   background-position: 20% 60%;
+    padding-top: 5vw;
+    height:100vh;
+}
+#chat{
+    backdrop-filter:blur(10px);
+    background-color: #00000066;
+    height:60vh;
+    margin: 50px 10vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    padding :10px 50px;
+    
+    
+}
+#message{
+    backdrop-filter:blur(10px);
+    width: 80vw;
+    margin: auto;
+    border: 2px solid white;
+}   
+.mess{
+    border-radius: 10px;
+    background-color: #00000055;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.flex-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flex-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#send{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.456);
+}

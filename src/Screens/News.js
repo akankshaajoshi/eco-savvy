@@ -25,12 +25,14 @@ export function News() {
         <div id='newsSection'>
           {newsData.map((newsData, index) =>
             <div key={index} id='newsbox'>
-                <a target="_blank" href={newsData.url}>
+                <a target="_blank" href={newsData.url} rel='noreferrer'>
                 <div id='news-content'>
-                  <h2 id='news-title'>{newsData.title}</h2>
-                  <p id='news-para'>{newsData.description}</p>
+                  <h2 id='news-title'>{newsData.title.slice(0, 60)+"..."}</h2>
+                  <p id='news-para'>{newsData.description.slice(0, 200)+'...'}</p>
                 </div>
-                  <img id='news-img' src={newsData.urlToImage} width="200px"/>
+                </a>
+                <a target="_blank" href={newsData.url} rel='noreferrer'>
+                  <img id='news-img' src={newsData.urlToImage} width="200px" alt='newsimage'/>
                 </a>
           </div>
           )}

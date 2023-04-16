@@ -4,7 +4,7 @@ import { Link, NavLink} from "react-router-dom";
 function Navbar (){
     return (
         <div id="nav">
-        <a className="navbar-brand" href="#"><img src="https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/logo2.png?raw=true" alt="logo1" /></a>
+        <Link className="navbar-brand" to='/home'><img src="https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/logo2.png?raw=true" alt="logo1" /></Link>
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
   <div className="container-fluid">
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -13,7 +13,7 @@ function Navbar (){
         <Link to="/home">Home</Link>
         </li>
         <li className="nav-item">
-        <a href="/home#resource-section">Resources</a>
+        <a href="/GPT">Eco-chat</a>
         </li>        
         <li className="nav-item">
         <NavLink to="/News">News</NavLink>

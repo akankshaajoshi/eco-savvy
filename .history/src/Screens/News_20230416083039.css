@@ -1,0 +1,51 @@
+*{
+    text-decoration: none;
+    color: #C1F1E0;
+    box-sizing: border-box;
+}
+#news-img{
+    border-radius: 10px;
+    z-index: 2;
+    height:106px;
+    object-fit: cover;
+}
+
+#newsbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f1e1e6f;
+    margin: 20px 5vw;
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 20vh;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+#newsSection{
+    padding-top: 8vh;
+    margin: auto;
+    margin: 0px 3vw;
+    
+}
+#news-page{
+    align-items: center;
+    width: 100vw;
+    background-image: url("https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/news.jpg?raw=true");
+}
+
+#news-content{
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+}
+
+#news-para{
+    max-height: max-content;
+}
+#news-box a{
+    display: inline-block;
+    padding: 20px;
+}

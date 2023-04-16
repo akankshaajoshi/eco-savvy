@@ -31,18 +31,19 @@
 .navbar a{
     text-decoration: none;
     padding:5px 15px;
-    color:white;
+    color:#C1F1E0;
     border-radius: 30px;
     transition: 0.2s;
 }
 
 .navbar a:active{
-    background-color: darkgreen;
+    color: black;
 }
 
 .navbar a:hover{
-    background-color: green;
-    border: green;
+    background-color: #C1F1E0;
+    border: #C1F1E0;
+    color: black;
 }
 
 
