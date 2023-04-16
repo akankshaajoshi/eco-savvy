@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EcoSavvy/static/css/main.d0c02309.css",
-    "main.js": "/EcoSavvy/static/js/main.9707c964.js",
+    "main.css": "/EcoSavvy/static/css/main.f6bb20b1.css",
+    "main.js": "/EcoSavvy/static/js/main.7d7b53ec.js",
     "static/js/787.d6a39614.chunk.js": "/EcoSavvy/static/js/787.d6a39614.chunk.js",
     "static/media/Aboutback.jpg": "/EcoSavvy/static/media/Aboutback.02e3eda0ebfa24c28db8.jpg",
     "index.html": "/EcoSavvy/index.html",
-    "main.d0c02309.css.map": "/EcoSavvy/static/css/main.d0c02309.css.map",
-    "main.9707c964.js.map": "/EcoSavvy/static/js/main.9707c964.js.map",
+    "main.f6bb20b1.css.map": "/EcoSavvy/static/css/main.f6bb20b1.css.map",
+    "main.7d7b53ec.js.map": "/EcoSavvy/static/js/main.7d7b53ec.js.map",
     "787.d6a39614.chunk.js.map": "/EcoSavvy/static/js/787.d6a39614.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c02309.css",
-    "static/js/main.9707c964.js"
+    "static/css/main.f6bb20b1.css",
+    "static/js/main.7d7b53ec.js"
   ]
 }
