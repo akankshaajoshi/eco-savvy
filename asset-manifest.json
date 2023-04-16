@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EcoSavvy/static/css/main.f91c294b.css",
-    "main.js": "/EcoSavvy/static/js/main.a259c513.js",
-    "static/js/787.d6a39614.chunk.js": "/EcoSavvy/static/js/787.d6a39614.chunk.js",
-    "static/media/Aboutback.jpg": "/EcoSavvy/static/media/Aboutback.02e3eda0ebfa24c28db8.jpg",
-    "index.html": "/EcoSavvy/index.html",
-    "main.f91c294b.css.map": "/EcoSavvy/static/css/main.f91c294b.css.map",
-    "main.a259c513.js.map": "/EcoSavvy/static/js/main.a259c513.js.map",
-    "787.d6a39614.chunk.js.map": "/EcoSavvy/static/js/787.d6a39614.chunk.js.map"
+    "main.css": "/EcoSavvy/home/static/css/main.b88bf1fb.css",
+    "main.js": "/EcoSavvy/home/static/js/main.63f70815.js",
+    "static/js/787.d6a39614.chunk.js": "/EcoSavvy/home/static/js/787.d6a39614.chunk.js",
+    "static/media/Aboutback.jpg": "/EcoSavvy/home/static/media/Aboutback.02e3eda0ebfa24c28db8.jpg",
+    "index.html": "/EcoSavvy/home/index.html",
+    "main.b88bf1fb.css.map": "/EcoSavvy/home/static/css/main.b88bf1fb.css.map",
+    "main.63f70815.js.map": "/EcoSavvy/home/static/js/main.63f70815.js.map",
+    "787.d6a39614.chunk.js.map": "/EcoSavvy/home/static/js/787.d6a39614.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f91c294b.css",
-    "static/js/main.a259c513.js"
+    "static/css/main.b88bf1fb.css",
+    "static/js/main.63f70815.js"
   ]
 }
