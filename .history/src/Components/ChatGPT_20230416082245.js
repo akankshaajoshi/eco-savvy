@@ -11,7 +11,7 @@ const openai = new OpenAIApi(configuration);
 
 export function ChatGPT(){
     let [messages,setMessages]=useState([{"role": "system", "content": "You will only answer queries related to sustainable development."}]);
-    let [chat, setChat]=useState(['Assistant','user','Assistant2','user2','Assistant3','user3']);
+    let [chat, setChat]=useState([]);
     const handleSubmit = (e) => {
         e.preventDefault();
         let message={"role": "user", "content": e.target.message.value};
@@ -38,11 +38,7 @@ export function ChatGPT(){
         <div id='Gpt'>
         <form onSubmit={(e) => {handleSubmit(e)}}>
         <div id='chat'>
-            {chat.map((mess)=>(
-                <div className='mess' id='mess1'>
-                {<p>mess</p>}
-                </div>
-            ))}
+            
         </div>
             <input type="text" id='message'/>
             <button type='submit'>send</button>

@@ -28,7 +28,7 @@ export function News() {
                 <a target="_blank" href={newsData.url}>
                 <div id='news-content'>
                   <h2 id='news-title'>{newsData.title.slice(0, 60)+"..."}</h2>
-                  <p id='news-para'>{newsData.description.slice(0, 200)+'...'}</p>
+                  <p id='news-para'>{newsData.description.slice(0, 150)+'...'}</p>
                 </div>
                 </a>
                 <a target="_blank" href={newsData.url}>

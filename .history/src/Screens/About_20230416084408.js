@@ -13,6 +13,7 @@ export function About() {
         <div className="g-col-6">
             <h1>About Us</h1>
             <p>EcoSavvy is developed by a team of 5 members pursuing undergraduate in computer science and engineering at Birla Institute of Applied Sciences. It is created with the motive to promote an innovative approach towards sustainability and sustainable development. We aim to:
+                <br/>
                 <ol>
                     <li>Create awareness regarding sustainability and sustainable development methods.</li>
                     <li>Promote an enhanced rate of application of theoritical solutions to improve the condition of environment.</li>
