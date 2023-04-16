@@ -10,7 +10,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 export function ChatGPT(){
-    let [chat, setChat]=useState(['Assistant','user','Assistant2']);
+    let [chat, setChat]=useState([]);
    const handleSubmit = (e) => {
         e.preventDefault();  
         let messagee=e.target.message.value;  
