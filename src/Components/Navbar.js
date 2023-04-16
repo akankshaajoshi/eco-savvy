@@ -13,7 +13,7 @@ function Navbar (){
         <Link to="/home">Home</Link>
         </li>
         <li className="nav-item">
-        <a href="/home#resource-section">Resources</a>
+        <a href="/GPT">Eco-chat</a>
         </li>        
         <li className="nav-item">
         <NavLink to="/News">News</NavLink>
