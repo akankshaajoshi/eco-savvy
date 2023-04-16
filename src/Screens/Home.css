@@ -48,6 +48,9 @@
     display: flex;
     align-items: flex-start;
 }
+#resource-section{
+    padding-top: 10%;
+}
 
 .resource {
     background-color: #0000007c;
