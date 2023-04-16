@@ -28,16 +28,18 @@ export function Home() {
                         <p id='intro'>
                             EcoSavvy is a sustainable development-based information and product website that promotes renewable energy sources, such as solar, wind, and hydroelectric power. With the current scenario of global energy and resource management, sustainable development is essential for the efficient utilization and management of resources.
                         </p>
-                        <div id="about-left"><NavLink to="/About" className="button">About Us</NavLink> </div></div>
+                        <div id="about-left"><NavLink to="/About" className="button">About Us</NavLink> </div>
+                    </div>
                     <img src='https://github.com/akankshaajoshi/EcoSavvy/blob/master/src/Resources/logo1.png?raw=true' className='logo2' />
                 </div>
 
                 <div id='resource-section'>
                     <div id='res-1' className='resource'>
-                        <h1>Solar Energy</h1>
+                        <div><h1>Solar Energy</h1>
                         <p>
                             {solar.slice(0, 400) + "..."}
                         </p>
+                        </div>
                         <br />
                         <a href='https://en.wikipedia.org/wiki/Solar_energy' className="button">Read More</a>
 
@@ -85,9 +87,9 @@ export function Home() {
                                 <img id='vert-news-img' src={newsData.urlToImage} width="200px" />
                             </a>
                         </div>
-                        
+
                     )}
-                   
+
                 </div>
                 <a href='test' className='button' id="read-more">Read More</a>
             </div>

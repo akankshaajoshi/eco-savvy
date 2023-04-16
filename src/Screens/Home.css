@@ -16,15 +16,15 @@ html{
 .home {
     background-image: url("https://github.com/akankshaajoshi/EcoSavvy/blob/master/Resources/pexels-deva-darshan-1173777.jpg?raw=true");
     color: white;
+    /* height:300vh; */
 }
-
 #home-content {
     padding: 14vw 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 #intro {
@@ -53,16 +53,15 @@ html{
     align-items: flex-start;
 }
 #resource-section{
-    padding-top: 9%;
+    padding-top: 7%;
     padding-bottom: 9%;
 }
 
 .resource {
     background-color: #0000007c;
     border-radius: 45px;
-    padding:30px 40px;
-    margin: 60px auto;
-    height:auto;
+    padding: 20px;
+    margin: 150px auto;
     width:50vw;
 }
 #resource-section .button{
@@ -78,6 +77,9 @@ html{
     margin:50px auto 20px auto;
     width:44vw;
     border-radius: 20px;
+}
+#resource-section h1{
+margin-top: 20px;
 }
 
 #footer {

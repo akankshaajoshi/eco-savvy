@@ -32,7 +32,7 @@ export function Carbon() {
     setTotalFootprint(totalFootprint);
   };
   return (
-    <div className="blur">
+    
       <div id="carbon">
         <div className="sections">
           <div className="carbon-section1">
@@ -146,6 +146,5 @@ export function Carbon() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
