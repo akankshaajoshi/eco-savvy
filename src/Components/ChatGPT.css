@@ -8,8 +8,25 @@
     height:60vh;
     margin: 50px 10vw;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
 }
 #message{
     width: 80vw;
     margin: 20px auto;
+}
+.mess{
+    border-radius: 10px;
+    background-color: red;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+#mess0{
+    float: left;
+}
+#mess1{
+    float: right;
 }
