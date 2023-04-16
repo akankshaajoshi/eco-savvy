@@ -78,7 +78,7 @@ html{
     transition: 0.1s;
 }
 .resource:hover{
-    transform:scale(1.006);
+    transform:scale(1.007);
 }
 #resource-section .button{
     margin:50px;
