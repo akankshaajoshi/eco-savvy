@@ -19,8 +19,8 @@ export function ChatGPT(){
             let promise = new Promise(function(setMessages, reject) {
               setMessages(...messages,message);
             });
-            await promise;
         }
+        await promise;
           
         feed();
         console.log(messages);

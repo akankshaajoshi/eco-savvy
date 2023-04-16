@@ -11,7 +11,7 @@ export function About() {
     <div className="grid">
         <div className='ingrid'>
         <div className="g-col-6">
-            <h1>About Us</h1>
+            <h1>About Us</h>
             <p>EcoSavvy is developed by a team of 5 members pursuing undergraduate in computer science and engineering at Birla Institute of Applied Sciences. It is created with the motive to promote an innovative approach towards sustainability and sustainable development. We aim to:
                 <ol>
                     <li>Create awareness regarding sustainability and sustainable development methods.</li>
