@@ -45,7 +45,7 @@ export function ChatGPT(){
             ))}
         </div>
             <input type="text" id='message'/>
-            <button type='submit'>send</button>
+            <button type='submit' id="send">send</button>
         </form>
         </div>
     )

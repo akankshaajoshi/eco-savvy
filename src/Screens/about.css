@@ -9,7 +9,7 @@
     background-image: url(/src/Resources/Aboutback.jpg);
 }
 .grid{
-    background-image: linear-gradient(rgba(44, 44, 51, 0.712),rgba(112, 120, 121, 0.596),rgba(160, 154, 154, 0));
+    background-image: linear-gradient(rgba(34, 34, 34, 0.712),rgba(0, 0, 0, 0.596),rgba(160, 154, 154, 0));
     overflow: hidden;
     margin-bottom: -100px;
 }
@@ -55,6 +55,7 @@ h3{
     margin-top: -80px;
     margin-left: 20px;
     margin-bottom: 60px;
+    font-size: 30px;
 }
 .bottom{
     display: flex;
@@ -75,5 +76,6 @@ h3{
     margin-top: -150px;
 }
 iframe{
-    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.555);
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.555);
 }
+h1{margin-top: 20px;}
