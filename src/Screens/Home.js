@@ -91,7 +91,7 @@ export function Home() {
                     )}
 
                 </div>
-                <Link to='/News' className='button' id="read-more">Read More</Link>
+                <NavLink to='/News' className='button' id="read-more">Read More</NavLink>
             </div>
             <div id='footer'>
                 Copyright@EcoSavvy2023
