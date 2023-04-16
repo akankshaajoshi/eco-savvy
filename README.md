@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# EcoSavvy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EcoSavvy is a sustainable development-based information and product website which promotes renewable energy sources, such as solar, wind, and hydroelectric power.
+With the current scenario of global energy and resource management, sustainable development is essential for the efficient utilization and management of resources. 
+Our website integrates information, products, and news with ChatGPT-API offered by OpenAI to provide the users a seamless experience while maintaining its structural and
+functional integrity.
 
-## Available Scripts
+Tech Stack : HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, OpenAI, Git, GitHub
 
-In the project directory, you can run:
+# Use Cases:
 
-### `npm start`
+EcoSavvy is a platform that integrates information with products, providing users an entry to the hub of useful information regarding sustainable developments, resources, and practices. It employs the given use cases :
+1. To provide information about the sustainable development technologies and renewable energy resources to promote clean energy techniques.
+2. To update the users regarding advancements in sustainable technologies.
+3. Integration with ChatGPT enhances the functionality of the website by answering the questions related to sustainability.
+4. Carbon footprint calculator which measures the effect of carbon content in an economy to switch to safer and environmental friendly alternatives.
+5. Encourage users to buy environment friendly and sustainable products by redirecting them to the respective product websites.
+6. Provide a platform to educate users about the possible research and advancements in the field of sustainable technologies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additionally, it employs multiple user friendly tools to enhance user experience while ensuring simplicity in navigation. Interface is carefully refined to improve accessibility.
