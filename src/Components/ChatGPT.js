@@ -4,7 +4,7 @@ import './ChatGPT.css';
 
 const configuration = new Configuration({
     organization: "org-LXLuuLknBXJzxZ3xph3tLFIP",
-    apiKey: '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',
+    apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
@@ -20,8 +20,8 @@ export function ChatGPT(){
               setMessages(...messages,message);
             });
         }
-          
         feed();
+        setMessages(...messages,message);
         console.log(messages);
         
         var output=openai.createChatCompletion({
