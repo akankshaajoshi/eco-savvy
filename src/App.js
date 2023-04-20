@@ -6,7 +6,7 @@ import {News} from './Screens/News';
 import {Carbon} from './Screens/carbon';
 import {ChatGPT} from './Components/ChatGPT';
 import {Route ,Routes, Navigate} from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+
 
 function App() {
   return (
