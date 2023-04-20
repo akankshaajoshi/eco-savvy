@@ -1,5 +1,7 @@
 # EcoSavvy
 
+NOTE: To use the application kindly clone this repository and run 'npm run start' in command line.
+
 EcoSavvy is a sustainable development-based information and product website which promotes renewable energy sources, such as solar, wind, and hydroelectric power.
 With the current scenario of global energy and resource management, sustainable development is essential for the efficient utilization and management of resources. 
 Our website integrates information, products, and news with ChatGPT-API offered by OpenAI to provide the users a seamless experience while maintaining its structural and
